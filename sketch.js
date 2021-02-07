@@ -54,8 +54,7 @@ function draw() {
 function keyPressed() {
 	//write code here
 	if(keyCode === RIGHT_ARROW){
-		fairy.x = fairy.x + 20;
-		fairy.velocityX = fairy.velocityX +21 
+		fairy.x = fairy.x + 20; 
 	}
 			
 
