@@ -52,7 +52,7 @@ function draw() {
 }
 
 function keyPressed() {
-	coonsole.log(keyCode);
+	console.log(keyCode);
 	//write code here
 	if(keyCode === RIGHT_ARROW){
 		fairy.x = fairy.x + 20; 
