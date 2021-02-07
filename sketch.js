@@ -22,7 +22,6 @@ function setup() {
 	// fairyVoice.play();
 
 	fairy = createSprite(130, 520);
-	fairy.velocityX = fairy.velocityX +21
 	fairy.addAnimation("fairyflying",fairyImg);  
 	fairy.scale =0.25;
 
@@ -54,14 +53,9 @@ function draw() {
 
 function keyPressed() {
 	//write code here
-	if(keyDown("left_arrow")){
-		fairy.velocityX = -20
+	if(keyCode === RIGHT_ARROW){
+		fairy.x = fairy.x + 20;
 	}
-	
-	
-		if(keyDown("right_arrow")){
-			Body.setStatic(starBody, false);
-		}
 			
 
 }
