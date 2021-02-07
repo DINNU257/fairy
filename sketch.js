@@ -49,6 +49,7 @@ function draw() {
   star.y= starBody.position.y 
 	if( starBody.position.y>470 ) {
 	Body.setStatic(starBody,true)
+	}
 }
 
 function keyPressed() {
@@ -63,4 +64,3 @@ function keyPressed() {
 			
 
 }
-
